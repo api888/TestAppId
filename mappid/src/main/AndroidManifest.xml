@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bin.mappid">
+
+    <uses-permission android:name="${UCMS_APPKEY}.test.permission" />
+    <application>
+        <meta-data android:name="permissionKey" android:value="${UCMS_APPKEY}"/>
+    </application>
+</manifest>
